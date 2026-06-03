@@ -1,0 +1,29 @@
+# To reload this file : cmd + shift + ,
+# CURSOR
+cursor-style = block
+cursor-style-blink = false
+
+# SPACING
+adjust-cell-height = 2
+
+# FONT
+font-family = "JetBrains Mono"
+# font-family = "Monaco"
+font-feature = "-calt"
+font-feature = "-liga"
+font-feature = "-dlig"
+font-size = 20
+
+# font-thicken = true
+# 0 to 255, MacOS only
+# font-thicken-strength = 150
+
+# THEME
+theme = dark:Tokyonight Night,light:Nvim Light
+# theme = Tokyonight Storm
+# theme = Nvim Light
+# theme = Builtin Solarized Dark
+
+# KEYBOARD
+# Enable Shift+Enter for AI tools
+keybind = shift+enter=text:\x1b\r
